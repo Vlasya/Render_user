@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+}
+.wrapper{
+	margin: 50px auto;
+	width: 60%;
+}
+
+.userCard{
+	background-color: #f8f8f8;
+	width:100%;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.userInfo{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.personalUserInfo{
+	display: flex;
+}
+.userImg{
+	height: 50px;
+	width: 50px;
+	display: block;
+}
+.nameUser{
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+	margin-left: 10px;
+}
+.role{
+	height: 30px;
+	width: 15%;
+	padding: 2px;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.lectorRole{
+	background-color:#ffeae9;
+}
+.adminRole{
+	background-color:#ebf2ff 
+}
+.studentRole{
+	background-color:#eceaff;
+}
+.iconImg{
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	margin-right: 5px;
+		
+}
+
+.coursesBlock{
+	/* height: 50%; */
+	width: 100%;
+	display: flex;
+
+}
+
+.course{
+display: flex;
+align-items: center;
+padding:0 5px 0 5px;
+margin-right: 20px;
+border-radius: 10px;
+}
+.course>p{
+text-align: center;
+margin-right: 5px;
+}
+
+.adminCourse{
+	width: 30%;
+	margin-right: 15px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.adminCourse>p{
+	margin-right: 5px;
+}
+
+.satisfactory{
+	display: inline-block;
+	color: red;
+	background-color:#eed8eb;
+	text-align: center;
+	border-radius:5px;
+	padding: 3px;
+}
+.good{
+	display: inline-block;
+	color:#816bb3 ;
+	background-color:#ded7f8;
+	text-align: center;
+	border-radius:5px;
+	padding: 3px;
+}
+.very{
+	display: inline-block;
+	color: #46a2b9;
+	background-color:#cee8fe;
+	text-align: center;
+	border-radius:5px;
+	padding: 3px;
+}
+.excellent{
+	display: inline-block;
+	color: #77b680;
+	background-color:#dde4ef;
+	text-align: center;
+	border-radius:5px;
+	padding: 3px;
+}
